@@ -9,4 +9,4 @@ locale-gen {{ locale }}:
 update-locale LANG={{ default_locale }} LC_ALL={{ default_locale }}:
   cmd:
     - run
-    - order: 0
+    - order: 1
